@@ -67,7 +67,7 @@ struct hv_control_s {
 	uint16_t Output_Readings_List_Size;
 	HV_ADC_Readings_List* Output_Readings_List;
 	uint16_t Mean_Output_Value;
-	uint16_t Mean_Output_Value_Long;
+	uint32_t Mean_Output_Value_Long;
 
 	bipolar_pwmout_t pwm_P;
 	bipolar_pwmout_t pwm_N;
